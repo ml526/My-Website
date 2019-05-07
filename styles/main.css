@@ -1,0 +1,130 @@
+/* DEVELOPER Ming Li Lim, IS117-002, Spring 2019 */
+body {
+	width: 99%;
+	max-width: 1000px;
+	border: 3px solid beige; 
+	font-size: 100%;
+	
+	
+}
+html {
+	background-color: #FEFAE1
+}
+@ media only screen and (max-width: 360px){
+	body {
+		font-size: 90%;
+		
+	}
+	main {
+		padding-bottom: 5%;
+	}
+	.footer {
+		padding: 0;
+	}
+}
+.container-fluid {
+	background-color: #DDFBCB;
+	padding-bottom: 10%;
+
+}
+
+header {
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	
+}
+header h1 {
+	text-align: center;
+	font-family: monospace;
+	margin: auto;
+	
+}
+a:link {
+	font-style:normal;
+}
+a:hover, a:focus {
+	font-style: normal;
+	text-decoration: none !important;
+}
+header img {
+	margin: auto;
+	padding-left: 3.75%;
+	padding-right: 3.75%;
+	float: none;
+}
+main ul {
+	list-style-type: circle;
+	border: 2px solid black;
+	box-sizing: border-box;
+	width: 30%;
+	padding: 0 5% 1%;
+}
+main ul ul{
+	border: none;
+	box-sizing: border-box;
+	padding:0;
+	margin:auto;
+	display: inline;
+	list-style-position: inside;
+}
+main ul ul li {
+	padding-left: 0;
+	box-sizing: border-box;
+}
+main h1 {
+	font-weight: bold;
+	margin-top: .5em !important;
+	margin-left: .5em;
+}
+.footer {
+    position: fixed;
+	margin: auto;
+	left: 0;
+    bottom: 0;
+	width:100%;
+
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+	box-sizing: border-box;
+}
+footer p {
+	padding-bottom: .5em;
+	padding-top: .5em;
+	margin-bottom: 0;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.card-deck {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-flex !important;
+	margin: auto;
+}
+.card-img-top {
+	height: 100%;
+	width: 100%;
+}
+div img {
+	image-orientation: from-image;
+}
+.img-fluid {
+	max-width: 100%;
+}
+.card mb-3 {
+	padding-top: 10%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: auto;
+}
+.form-control {
+	float: left;
+}
+/*fix the location of text box*/

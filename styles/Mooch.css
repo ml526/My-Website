@@ -1,0 +1,20 @@
+/* DEVELOPER Ming Li Lim, IS117-002, Spring 2019 */
+div img {
+	image-orientation: from-image;
+	float: left;
+	
+}
+.img-thumbnail {
+	margin: 2% 3%;
+	width: 35%;
+	margin-bottom: 50%;
+}
+.btn btn-outline-primary {
+	padding-bottom: 2%
+}
+.btn-block {
+	margin: 5% 0;
+}
+main p {
+	font-style: normal !important;
+}

@@ -1,0 +1,48 @@
+/* DEVELOPER Ming Li Lim, IS117-002, Spring 2019 */
+main div {
+	text-align: center;
+	margin: 5%;
+	padding-top: 5%;
+	padding-bottom: 5% !important;
+	border: 5px solid #166B90;
+	border-radius: 20px;
+	background-color: #B7FECA !important;
+}
+h2 {
+	text-align: center;
+	padding-top: 2em;
+	font-family: Bookman Old Style;
+}
+main p {
+	text-align: center;
+	padding: 0 2%;
+}
+main img {
+	height: 15%;
+	width: 15%;
+	float: left;
+	padding: 2%;
+}
+@ media only screen and (max-width: 429px){
+	body {
+		font-size: 90%;
+		
+	}
+	main img {
+		padding: 0%;
+	}
+	.reverse {
+		padding: 0%;
+	}
+}
+.reverse {
+	transform:scale(-1,1);
+            -webkit-transform:scale(-1,1);
+            -moz-transform:scale(-1,1);
+            -o-transform:scale(-1,1);
+	float: right;
+	height: 15%;
+	width: 15%;
+	padding: 2%;
+}
+			
